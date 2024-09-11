@@ -19,11 +19,29 @@ const config: Config = {
       xl: "1200px",
     },
     fontFamily: {
-      primary: "var(--font-jetbrainsMono)",
+      primary: ["var(--font-axiforma)", "sans-serif"],
+    },
+    fontWeight: {
+      light: "200",
+      book: "300",
+      normal: "400",
+      medium: "500",
+      semibold: "600",
+      bold: "700",
+      extrabold: "800",
+      black: "900",
     },
     extend: {
       colors: {
-        primary: "#1c1c22",
+        primary: { 200: "#524FD5" },
+        secondary: "#FFF5F1",
+        text: {
+          primary: "#181B32",
+        },
+        background: {
+          dark: "#f8fafe",
+          white: "#ffffff",
+        },
         accent: {
           DEFAULT: "#00ff99",
           hover: "#00e187",

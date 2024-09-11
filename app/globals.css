@@ -4,6 +4,6 @@
 
 @layer base {
   body {
-    @apply font-primary bg-primary text-white leading-loose;
+    @apply font-primary font-normal bg-white text-text-primary leading-loose;
   }
 }
