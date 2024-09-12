@@ -3,7 +3,7 @@ import React from "react";
 
 export default function HeroImage() {
   return (
-    <div className="h-full m-8 p-4 pt-16 xl:p-[9rem] relative">
+    <div className="h-full m-8 p-4 pt-16 xl:p-[9rem] relative xl:order-2">
       <div className="bg-[#ffd6b04d] aspect-square rotate-[-4.37deg] rounded-[40px] ">
         <div className="bg-[#ffd6b0] h-full w-full rotate-[10deg] rounded-[40px] overflow-hidden absolute top-0 left-0">
           <Image

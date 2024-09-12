@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import localFont from "next/font/local";
-import Nav from "@/components/nav";
-import Header from "@/components/header";
+import Nav from "@/components/header/nav";
+import Header from "@/components/header/header";
 
 const axiforma = localFont({
   src: [
