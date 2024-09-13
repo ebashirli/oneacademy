@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Testimonial() {
   return (
-    <section className="px-16 xl:px-32 mb-96 xl:h-[calc(100vh-64px)]  flex flex-col gap-16 ">
+    <section className="px-16 xl:px-32 xl:h-[calc(100vh-64px)]  flex flex-col gap-16 ">
       <div className="text-center xl:text-left">
         <h3 className="text-[#b0b0c0] text-lg font-bold uppercase leading-[34.20px]">
           top studiying
