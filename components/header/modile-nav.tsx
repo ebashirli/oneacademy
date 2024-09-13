@@ -5,7 +5,6 @@ import Logo from "@/components/logo";
 import { links } from "@/lib/constants";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useRouter } from "next/router";
 
 export default function MobileNav() {
   const pathname = usePathname();

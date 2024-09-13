@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
 import HeroImage from "./hero-image";
 
 export default function Hero() {
