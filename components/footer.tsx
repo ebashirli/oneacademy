@@ -32,8 +32,8 @@ export default function Footer() {
           <div key={index}>
             <h6>{title}</h6>
             <ul>
-              {links.map((link) => (
-                <li key={index}>
+              {links.map((link, i) => (
+                <li key={i}>
                   <Link href={link}>{link}</Link>
                 </li>
               ))}
