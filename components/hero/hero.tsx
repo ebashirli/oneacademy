@@ -3,7 +3,7 @@ import HeroImage from "./hero-image";
 
 export default function Hero() {
   return (
-    <section className="pt-24 grid xl:grid-cols-2 lg:max-h-screen bg-[#fff5f1] rounded-[40px] items-center ">
+    <section className="pt-24 grid xl:grid-cols-2 lg:max-h-screen bg-[#fff5f1] rounded-[40px] items-center -mt-[120px] -z-10">
       <HeroImage />
       <div className="p-8 xl:ml-48 text-center xl:text-left">
         <h2 className="xl:max-w-[580px] text-[42px] xl:text-[56px] font-light leading-[70.56px] ">

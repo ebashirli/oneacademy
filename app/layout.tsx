@@ -71,7 +71,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${axiforma.variable} antialiased`}>
+      <body className={`${axiforma.variable} antialiased `}>
         <Header />
         {children}
       </body>
