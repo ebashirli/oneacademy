@@ -11,8 +11,8 @@ const address = `Masallı şəhəri, "Prospekt" Biznes Mərkəzi (2-ci mərtəb�
 
 export default function Footer() {
   return (
-    <section className="px-16 xl:px-32 mb-20">
-      <div className="bg-[#f8fafe] rounded-[40px] xl:p-14 xl:pt-16 xl:pb-28 border flex gap-10 flex-col xl:flex-row justify-between ">
+    <section className="xl:px-32 mb-20 w-full">
+      <div className="bg-[#f8fafe] rounded-[40px] xl:p-14 xl:pt-16 xl:pb-28 border flex gap-10 flex-col xl:flex-row justify-between p-8 pt-10">
         <div>
           <Logo />
           <address>

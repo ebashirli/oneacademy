@@ -20,7 +20,7 @@ const qas = [
 
 export default function Questions() {
   return (
-    <section className="grid gap-12 px-16 xl:px-32  ">
+    <section className="grid gap-12 xl:px-32  ">
       <div className="grid xl:grid-cols-2 items-end ">
         <div className="text-center xl:text-left">
           <h3 className="text-[#b0b0c0] text-lg font-bold uppercase leading-[34.20px]">
@@ -39,14 +39,16 @@ export default function Questions() {
                 <AccordionItem
                   value={question}
                   key={question}
-                  className={`w-4/5 border rounded-[40px] p-10 py-5
+                  className={`xl:w-4/5 border rounded-[40px] p-10 py-5
                     border-b transition-colors duration-200
                   [&[data-state=open]]:bg-primary-200 
                   [&[data-state=open]]:text-white 
                     `}
                 >
-                  <AccordionTrigger>{question}</AccordionTrigger>
-                  <AccordionContent className="w-3/4 ">
+                  <AccordionTrigger className="text-left">
+                    {question}
+                  </AccordionTrigger>
+                  <AccordionContent className="xl:w-3/4 ">
                     {answer}
                   </AccordionContent>
                 </AccordionItem>

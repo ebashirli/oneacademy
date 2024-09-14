@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Testimonial() {
   return (
-    <section className="px-16 xl:px-32 xl:h-[calc(100vh-64px)]  flex flex-col gap-16 ">
+    <section className="px-8 xl:px-32 xl:h-[calc(100vh-64px)] flex flex-col gap-16 ">
       <div className="text-center xl:text-left">
         <h3 className="text-[#b0b0c0] text-lg font-bold uppercase leading-[34.20px]">
           top studiying
@@ -11,8 +11,8 @@ export default function Testimonial() {
           Our students say
         </h4>
       </div>
-      <div className="grid gap-16 xl:grid-cols-2 grow ">
-        <div className="relative bg-[#fceae3] rounded-[40px] max-w-[calc(100%/1.4)] max-h-full grow">
+      <div className="grid gap-16 xl:grid-cols-2 justify-center">
+        <div className="relative bg-[#fceae3] rounded-[40px] xl:max-w-[calc(100%/1.4)] aspect-[502/633]  ">
           <Image
             src="/testimonials/s1.png"
             alt=""
