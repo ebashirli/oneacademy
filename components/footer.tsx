@@ -33,7 +33,7 @@ export default function Footer() {
             <h6>{title}</h6>
             <ul>
               {links.map((link) => (
-                <li>
+                <li key={index}>
                   <Link href={link}>{link}</Link>
                 </li>
               ))}

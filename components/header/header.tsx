@@ -6,7 +6,7 @@ import MobileNav from "./modile-nav";
 
 export default function Header() {
   return (
-    <header className="xl:py-12 absolute w-full px-32 mt-6 ">
+    <header className="p-8 xl:py-12 w-full px-12 xl:px-32 mt-6 ">
       <div className="flex justify-between items-center ">
         <Logo />
         <>

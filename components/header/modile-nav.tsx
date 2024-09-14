@@ -14,7 +14,7 @@ export default function MobileNav() {
       <SheetTrigger className="flex justify-center items-center ">
         <CiMenuFries className="text-[32px]" />
       </SheetTrigger>
-      <SheetContent className="flexk flex-col bg-white ">
+      <SheetContent className="flex flex-col bg-white ">
         <div className="mt-24 mb-40 flex justify-center">
           <Logo />
         </div>
