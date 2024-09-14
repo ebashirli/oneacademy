@@ -7,6 +7,8 @@ const footerLinks = [
   { title: "Legal", links: ["Terms & Conditions", "Privacy policy"] },
 ];
 
+const address = `Masallı şəhəri, "Prospekt" Biznes Mərkəzi (2-ci mərtəbə)`;
+
 export default function Footer() {
   return (
     <section className="px-16 xl:px-32 mb-20">
@@ -20,7 +22,7 @@ export default function Footer() {
               }
               target="_blank"
             >
-              Masallı şəhəri, "Prospekt" Biznes Mərkəzi (2-ci mərtəbə)
+              {address}
             </Link>
           </address>
           <Link href="tel:+994513886411" target="_blank">
