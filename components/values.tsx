@@ -34,11 +34,11 @@ export default function Values() {
 
       <ul className="grid gap-32 justify-center xl:grid-cols-3">
         {values.map(({ icon, title, description }) => (
-          <li key={title} className="max-w-72 grid gap-12">
-            <div className="aspect-square relative h-28 mx-auto">
+          <li key={title} className="max-w-72 grid gap-12  grid-rows-[1fr_2fr]">
+            <div className="aspect-square relative h-28 mx-auto ">
               <Image src={icon} alt="" fill className="object-contain " />
             </div>
-            <div>
+            <div className="  ">
               <h4 className="font-medium leading-9 text-2xl">{title}</h4>
               <p className="text-[#66667f] text-lg leading-[34.20px] ">
                 {description}
