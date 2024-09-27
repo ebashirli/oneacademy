@@ -3,15 +3,14 @@ import Image from "next/image";
 const values = [
   {
     icon: "/icons/chat.svg",
-    title: "Speaking clubs",
-    description:
-      "In our school you will practice your speaking skills and just get a lot of positive emotions!",
+    title: "Danışıq klubları",
+    description: `Ödənişsiz "conversation clublar"da danışıq bacarıqlarınızı inkişaf etdirərkən həm də vaxtınızı daha əyləncəli və səmərəli keçirəcəksiniz`,
   },
   {
     icon: "/icons/send.svg",
-    title: "Quality control",
+    title: "Peşəkar heyət",
     description:
-      "A huge work has been done with the teachers and their work has been monitored thoroughly.",
+      "Müəllimlərimiz ali tehsilli, təcrübəli ve yeniliklərəe uyğunlaşan gənc kadrlardan ibarətdir.",
   },
   {
     icon: "/icons/paper.svg",

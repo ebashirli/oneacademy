@@ -34,9 +34,9 @@ export default function Testimonial() {
             <p>B2 course student</p>
           </div>
           <p className="text-lg">
-            There is no way I could have made the same progress learning Spanish
-            without using Lingua. The best part is now learning Spanish has
-            become one of my biggest hobbies.
+            "ONE Academy"siz ingilis dilini öyrənməkdə eyni irəliləyişə nail ola
+            bilməzdim. Ən yaxşı hissəsi indi ingilis dilini öyrənməkdir ki,
+            mənim ən böyük hobbimdən birinə çevrilib.
           </p>
         </div>
       </div>
