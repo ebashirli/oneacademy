@@ -24,10 +24,10 @@ export default function Questions() {
       <div className="grid xl:grid-cols-2 items-end ">
         <div className="text-center xl:text-left">
           <h3 className="text-[#b0b0c0] text-lg font-bold uppercase leading-[34.20px]">
-            more info
+            əlavə məlumat
           </h3>
           <h4 className="text-[#181a31] text-5xl font-light leading-[62.40px]">
-            Common questions
+            Ən çox soruşulanlar
           </h4>
         </div>
       </div>

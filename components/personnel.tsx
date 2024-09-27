@@ -1,5 +1,5 @@
-import Image from "next/image";
 import { ChevronLeftIcon, ChevronRightIcon } from "@radix-ui/react-icons";
+import Image from "next/image";
 import { Button } from "./ui/button";
 
 const cards = [
@@ -26,10 +26,10 @@ export default function Personnel() {
       <div className="grid xl:grid-cols-2 items-end ">
         <div className="text-center xl:text-left">
           <h3 className="text-[#b0b0c0] text-lg font-bold uppercase leading-[34.20px]">
-            key persons
+            açar şəxslərimiz
           </h3>
           <h4 className="text-[#181a31] text-5xl font-light leading-[62.40px]">
-            Meet our teachers
+            Heyətimizlə tanış olun
           </h4>
         </div>
         <div className="hidden xl:flex gap-6 justify-end ">

@@ -26,10 +26,10 @@ export default function Values() {
     <section className="grid text-center gap-20 justify-center ">
       <div>
         <h3 className="text-[#b0b0c0] text-lg font-bold uppercase leading-[34.20px]">
-          why choose us
+          niyə biz
         </h3>
         <h4 className="text-[#181a31] text-5xl font-light leading-[62.40px]">
-          Our values
+          Dəyərlərimiz
         </h4>
       </div>
 

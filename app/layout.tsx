@@ -18,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="az">
       <body className={`${mulish.className} antialiased `}>{children}</body>
     </html>
   );

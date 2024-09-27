@@ -5,10 +5,10 @@ export default function Testimonial() {
     <section className="px-8 xl:px-32 xl:h-[calc(100vh-64px)] flex flex-col gap-16 ">
       <div className="text-center xl:text-left">
         <h3 className="text-[#b0b0c0] text-lg font-bold uppercase leading-[34.20px]">
-          top studiying
+          nəaliyyətlərimiz
         </h3>
         <h4 className="text-[#181a31] text-5xl font-light leading-[62.40px]">
-          Our students say
+          Tələbələrimiz haqqımızda deyir
         </h4>
       </div>
       <div className="grid gap-16 xl:grid-cols-2 justify-center">
