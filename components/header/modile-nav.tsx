@@ -1,10 +1,10 @@
 "use client";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { CiMenuFries } from "react-icons/ci";
 import Logo from "@/components/logo";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { links } from "@/lib/constants";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { CiMenuFries } from "react-icons/ci";
 
 export default function MobileNav() {
   const pathname = usePathname();
