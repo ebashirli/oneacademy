@@ -19,7 +19,7 @@ const config: Config = {
       xl: "1200px",
     },
     fontFamily: {
-      primary: ["var(--font-axiforma)", "sans-serif"],
+      primary: ["var(--font-mulish)", "sans-serif"],
     },
     fontWeight: {
       light: "200",

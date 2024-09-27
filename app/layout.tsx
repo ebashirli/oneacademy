@@ -1,61 +1,10 @@
 import type { Metadata } from "next";
+import { Mulish } from "next/font/google";
 import "./globals.css";
-import localFont from "next/font/local";
 
-const axiforma = localFont({
-  src: [
-    { path: "./fonts/Axiforma-Regular.woff", style: "normal", weight: "400" },
-    { path: "./fonts/Axiforma-Bold.woff", style: "normal", weight: "700" },
-    { path: "./fonts/Axiforma-Italic.woff", style: "italic", weight: "400" },
-    { path: "./fonts/Axiforma-Black.woff", style: "normal", weight: "900" },
-    {
-      path: "./fonts/Axiforma-BlackItalic.woff",
-      style: "italic",
-      weight: "900",
-    },
-    {
-      path: "./fonts/Axiforma-BoldItalic.woff",
-      style: "italic",
-      weight: "700",
-    },
-    { path: "./fonts/Axiforma-Book.woff", style: "normal", weight: "300" },
-    {
-      path: "./fonts/Axiforma-BookItalic.woff",
-      style: "italic",
-      weight: "300",
-    },
-    { path: "./fonts/Axiforma-ExtraBold.woff", style: "normal", weight: "800" },
-    {
-      path: "./fonts/Axiforma-ExtraBoldItalic.woff",
-      style: "italic",
-      weight: "800",
-    },
-    { path: "./fonts/Axiforma-Heavy.woff", style: "normal", weight: "600" },
-    {
-      path: "./fonts/Axiforma-HeavyItalic.woff",
-      style: "italic",
-      weight: "600",
-    },
-    { path: "./fonts/Axiforma-Light.woff", style: "normal", weight: "200" },
-    {
-      path: "./fonts/Axiforma-LightItalic.woff",
-      style: "italic",
-      weight: "200",
-    },
-    { path: "./fonts/Axiforma-Medium.woff", style: "normal", weight: "500" },
-    {
-      path: "./fonts/Axiforma-MediumItalic.woff",
-      style: "italic",
-      weight: "500",
-    },
-    { path: "./fonts/Axiforma-SemiBold.woff", style: "normal", weight: "600" },
-    {
-      path: "./fonts/Axiforma-SemiBoldItalic.woff",
-      style: "italic",
-      weight: "600",
-    },
-  ],
-  variable: "--font-axiforma",
+const mulish = Mulish({
+  weight: ["200", "300", "400", "500", "600", "700", "800", "900"],
+  subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
@@ -70,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${axiforma.variable} antialiased `}>{children}</body>
+      <body className={`${mulish.className} antialiased `}>{children}</body>
     </html>
   );
 }
