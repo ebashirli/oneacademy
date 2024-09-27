@@ -34,9 +34,9 @@ export default function Testimonial() {
             <p>B2 course student</p>
           </div>
           <p className="text-lg">
-            "ONE Academy"siz ingilis dilini öyrənməkdə eyni irəliləyişə nail ola
+            {`"ONE Academy"siz ingilis dilini öyrənməkdə eyni irəliləyişə nail ola
             bilməzdim. Ən yaxşı hissəsi indi ingilis dilini öyrənməkdir ki,
-            mənim ən böyük hobbimdən birinə çevrilib.
+            mənim ən böyük hobbimdən birinə çevrilib.`}
           </p>
         </div>
       </div>
