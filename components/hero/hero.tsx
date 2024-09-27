@@ -5,8 +5,8 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className="p-8 h-screen">
-      <div className="bg-[#fff5f1] rounded-[40px]  h-full">
+    <section className="p-8 xl:h-screen">
+      <div className="bg-[#fff5f1] rounded-[40px] h-full">
         <Header />
         <div className="grid xl:grid-cols-2 items-center ">
           <HeroImage />

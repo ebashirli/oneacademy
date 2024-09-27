@@ -6,15 +6,15 @@ import {
 } from "@/components/ui/accordion";
 
 const qas = [
-  { question: "How can I know my level of knowledge?" },
-  { question: "Do I need to buy materials for lessons?" },
-  { question: "Can I do it individually or only in a group?" },
-  { question: "Are you adjusting to the student's schedule?" },
-  { question: "What is the maximum group size?" },
+  { question: "Bilik səviyyəmi necə öyrənə bilərəm?" },
+  { question: "Dərslər üçün material almalıyam?" },
+  { question: "Fərdi və ya yalnız qrup halında edə bilərəm?" },
+  { question: "Tələbə cədvəlinə uyğunlaşırsınız?" },
+  { question: "Maksimum qrup ölçüsü nədir?" },
   {
-    question: "How the first lesson with teacher will be?",
+    question: "Müəllimlə ilk dərs necə olacaq?",
     answer:
-      "By the end of the trial lesson, you will be able to determine for yourself whether this kind of online lesson is right for you or not. In our experience, most students appreciate the benefits of online education and decide to study online.",
+      "Sınaq dərsinin sonuna kimi siz bu növ dərsin sizə uyğun olub-olmadığını özünüz müəyyən edə biləcəksiniz. Təcrübələrimizə görə tələbələrin əksəriyyəti dərslərin üstünlüklərini qiymətləndirir və bizimlə öyrənməyə qərar verir.",
   },
 ];
 

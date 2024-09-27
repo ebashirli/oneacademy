@@ -3,7 +3,7 @@ import { Input } from "@/components/ui/input";
 
 export default function Cto() {
   return (
-    <section className="py-100px flex flex-col justify-center items-center gap-12 ">
+    <section className="flex flex-col justify-center items-center gap-12 px-8">
       <div className="text-center grid gap-4">
         <h2 className="text-[#181a31] text-5xl  leading-[62.40px]">
           Ödənişsiz sınaq dərsinə bugün qoşul
@@ -18,7 +18,7 @@ export default function Cto() {
           placeholder={`"Email"inizi yazın`}
         />
         <Button className="bg-primary-200 text-white rounded-3xl p-7">
-          Send
+          Göndər
         </Button>
       </div>
     </section>
