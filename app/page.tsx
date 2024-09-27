@@ -8,7 +8,7 @@ import Footer from "@/components/footer";
 
 export default function Home() {
   return (
-    <main className="p-4 grid gap-48 ">
+    <main className="grid gap-48">
       <Hero />
       <Values />
       <Personnel />
