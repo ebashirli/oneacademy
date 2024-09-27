@@ -1,11 +1,11 @@
-import { Button } from "@/components/ui/button";
-import HeroImage from "./hero-image";
 import Header from "@/components/header/header";
+import HeroImage from "@/components/hero/hero-image";
+import { Button } from "@/components/ui/button";
 
 export default function Hero() {
   return (
     <section className="p-8 h-screen">
-      <div className="bg-[#fff5f1] rounded-[40px] ">
+      <div className="bg-[#fff5f1] rounded-[40px]  h-full">
         <Header />
         <div className="grid xl:grid-cols-2 items-center ">
           <HeroImage />
