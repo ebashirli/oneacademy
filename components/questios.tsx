@@ -31,7 +31,7 @@ export default function Questions() {
           </h4>
         </div>
       </div>
-      <ul className="grid xl:grid-cols-2 justify-between gap-4 w-full ">
+      <ul className="grid xl:grid-cols-2 justify-between gap-4 w-full p-4 ">
         {qas.map(({ question, answer }) => (
           <div key={question}>
             <li>
