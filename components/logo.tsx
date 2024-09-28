@@ -9,13 +9,22 @@ const montserrat = Montserrat({
 export default function Logo() {
   return (
     <Link href="/" className={`${montserrat.className} flex`}>
-      <h1 className="font-bold font flex items-center justify-center space-x-1 text-3xl text-[#181a31] bold ">
-        <span className="uppercase text-primary-200 flex gap-4">
-          <span className="border-b-8 border-primary-200">one</span>
-          <span className="grid relative">
-            <span>academy</span>
-            <span className="text-[9.8px] absolute -bottom-[14.5px]  ">
-              for becomıng the fırst one
+      <h1 className="font-bold font flex items-center justify-center space-x-1 text-[40px] text-[#181a31] bold ">
+        <span className="bg-[#ffa500] h-[120px] w-[120px] flex flex-col items-center justify-center rounded-full ">
+          <span className="uppercase text-primary-200  ">
+            <span className="leading-none flex justify-between">
+              <span>o</span>
+              <span>n</span>
+              <span>e</span>
+            </span>
+            <span className="leading-none text-primary-200 text-[16px] flex justify-between rounded-sm  ">
+              <span>a</span>
+              <span>c</span>
+              <span>a</span>
+              <span>d</span>
+              <span>e</span>
+              <span>m</span>
+              <span>y</span>
             </span>
           </span>
         </span>
