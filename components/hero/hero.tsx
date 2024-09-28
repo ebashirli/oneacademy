@@ -20,10 +20,7 @@ export default function Hero() {
               Təcrübəli müəllimlərlə, müasir şəraitdə öyrənməyə elə indi başlaya
               bilərsən
             </p>
-            <Link
-              href="https://api.whatsapp.com/send?text=Salam, ONE Academy! &amp;phone=+994513886411"
-              target="_blank"
-            >
+            <Link href="/api/whatsapp" target="_blank">
               <Button className="bg-primary-200 text-white px-8 py-6 rounded-full mt-8">
                 Sınaq dərsinə qoşul
               </Button>
