@@ -7,10 +7,11 @@ const montserrat = Montserrat({
 });
 
 export default function Logo() {
+  // bg-[#ffa500] h-[120px] w-[120px]
   return (
     <Link href="/" className={`${montserrat.className} flex`}>
       <h1 className="font-bold font flex items-center justify-center space-x-1 text-[40px] text-[#181a31] bold ">
-        <span className="bg-[#ffa500] h-[120px] w-[120px] flex flex-col items-center justify-center rounded-full ">
+        <span className=" flex flex-col items-center justify-center rounded-full ">
           <span className="uppercase text-primary-200  ">
             <span className="leading-none flex justify-between">
               <span>o</span>
