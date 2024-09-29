@@ -1,3 +1,4 @@
+import { GoogleAnalytics } from "@next/third-parties/google";
 import type { Metadata } from "next";
 import { Mulish } from "next/font/google";
 import "./globals.css";
@@ -20,6 +21,7 @@ export default function RootLayout({
   return (
     <html lang="az">
       <body className={`${mulish.className} antialiased `}>{children}</body>
+      <GoogleAnalytics gaId="G-DHM55J00R0" />
     </html>
   );
 }

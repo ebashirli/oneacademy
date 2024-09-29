@@ -1,6 +1,13 @@
 import Logo from "@/components/logo";
 import Link from "next/link";
-import { MdLocalPhone, MdLocationOn } from "react-icons/md";
+import {
+  RiFacebookFill,
+  RiInstagramFill,
+  RiMapPin2Fill,
+  RiPhoneFill,
+  RiTiktokFill,
+  RiYoutubeFill,
+} from "react-icons/ri";
 
 const footerLinks = [
   { title: "Mərkəzimiz", links: ["Kariyera", "Müəllimlər", "Dəstək", "Əlaqə"] },
@@ -18,22 +25,20 @@ export default function Footer() {
           <Logo />
           <address className="mt-8">
             <Link
-              href={
-                "https://www.google.com/maps/place/ONE+Academy/@39.0341552,48.6677413,219m/data=!3m1!1e3!4m6!3m5!1s0x402323998f6c81a5:0x8bc3cf93099b9735!8m2!3d39.0343889!4d48.6675238!16s%2Fg%2F11kj4q7lw8?entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D"
-              }
+              href="/api/social/address"
               target="_blank"
               className="flex gap-2 items-center font-bold"
             >
-              <MdLocationOn size={30} />
+              <RiMapPin2Fill size={20} />
               <span className="">{address}</span>
             </Link>
           </address>
           <Link
-            href="tel:+994513886411"
+            href="/api/social/phone"
             target="_blank"
             className="flex gap-2 items-center font-bold"
           >
-            <MdLocalPhone size={30} />
+            <RiPhoneFill />
             (+994) 51 388 64 11
           </Link>
         </div>
@@ -51,10 +56,27 @@ export default function Footer() {
           </div>
         ))}
 
-        <div className="flex gap-4">
-          <div className="h-10 w-auto "></div>
-          <div className="h-10 w-auto "></div>
-          <div className="h-10 w-auto "></div>
+        <div className="flex gap-4 text-xl">
+          <div className="h-10 w-auto ">
+            <Link href="/api/social/instagram" target="_blank">
+              <RiInstagramFill size={20} />
+            </Link>
+          </div>
+          <div className="h-10 w-auto ">
+            <Link href="/api/social/facebook" target="_blank">
+              <RiFacebookFill size={20} />
+            </Link>
+          </div>
+          <div className="h-10 w-auto ">
+            <Link href="/api/social/youtube" target="_blank">
+              <RiYoutubeFill size={20} />
+            </Link>
+          </div>
+          <div className="h-10 w-auto ">
+            <Link href="/api/social/tiktok" target="_blank">
+              <RiTiktokFill size={20} />
+            </Link>
+          </div>
         </div>
       </div>
     </section>
