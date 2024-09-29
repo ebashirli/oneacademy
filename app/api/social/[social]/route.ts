@@ -22,7 +22,6 @@ export async function GET(request: NextRequest, { params }: Params) {
   if (socials[social]) {
     return NextResponse.redirect(socials[social]);
   } else {
-    // If the social platform is not found, return a 404 response
     return NextResponse.json(
       { error: "Social platform not found" },
       { status: 404 }
