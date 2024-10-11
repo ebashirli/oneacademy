@@ -1,13 +1,7 @@
 import Logo from "@/components/logo";
 import Link from "next/link";
-import {
-  RiFacebookFill,
-  RiInstagramFill,
-  RiMapPin2Fill,
-  RiPhoneFill,
-  RiTiktokFill,
-  RiYoutubeFill,
-} from "react-icons/ri";
+import { RiMapPin2Fill, RiPhoneFill } from "react-icons/ri";
+import Socials from "./socials";
 
 const footerLinks = [
   { title: "Mərkəzimiz", links: ["Kariyera", "Müəllimlər", "Dəstək", "Əlaqə"] },
@@ -25,7 +19,7 @@ export default function Footer() {
           <Logo />
           <address className="mt-8">
             <Link
-              href="/api/social/address"
+              href="/api/socials/address"
               target="_blank"
               className="flex gap-2 items-center font-bold"
             >
@@ -34,7 +28,7 @@ export default function Footer() {
             </Link>
           </address>
           <Link
-            href="/api/social/phone"
+            href="/api/socials/phone"
             target="_blank"
             className="flex gap-2 items-center font-bold"
           >
@@ -56,27 +50,8 @@ export default function Footer() {
           </div>
         ))}
 
-        <div className="flex gap-4 text-xl">
-          <div className="h-10 w-auto ">
-            <Link href="/api/social/instagram" target="_blank">
-              <RiInstagramFill size={20} />
-            </Link>
-          </div>
-          <div className="h-10 w-auto ">
-            <Link href="/api/social/facebook" target="_blank">
-              <RiFacebookFill size={20} />
-            </Link>
-          </div>
-          <div className="h-10 w-auto ">
-            <Link href="/api/social/youtube" target="_blank">
-              <RiYoutubeFill size={20} />
-            </Link>
-          </div>
-          <div className="h-10 w-auto ">
-            <Link href="/api/social/tiktok" target="_blank">
-              <RiTiktokFill size={20} />
-            </Link>
-          </div>
+        <div className="h-4">
+          <Socials />
         </div>
       </div>
     </section>

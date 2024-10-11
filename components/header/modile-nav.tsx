@@ -6,6 +6,7 @@ import { links } from "@/lib/constants";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { CiMenuFries } from "react-icons/ci";
+import Socials from "../socials";
 
 export default function MobileNav() {
   const pathname = usePathname();
@@ -15,11 +16,10 @@ export default function MobileNav() {
       <SheetTrigger className="flex justify-center items-center ">
         <CiMenuFries className="text-[32px]" />
       </SheetTrigger>
-      <SheetContent className="flex flex-col bg-white">
-        <div className="mt-24 mb-8 flex justify-center flex-col items-center gap-8">
-          <Logo />
-          <ContactUs />
-        </div>
+      <SheetContent className="pt-24 flex flex-col bg-white overflow-scroll items-center gap-12">
+        <Logo />
+        <ContactUs />
+        <Socials />
         <nav className="flex flex-col justify-center items-center gap-8">
           {links.map((link) => (
             <Link
