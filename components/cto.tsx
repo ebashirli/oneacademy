@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { onCtoSubmit } from "@/lib/actions";
 
 export default function Cto() {
   return (
@@ -14,10 +13,7 @@ export default function Cto() {
         </p>
       </div>
 
-      <form
-        action={onCtoSubmit}
-        className="grid xl:flex gap-3 xl:w-1/4 w-full "
-      >
+      <form className="grid xl:flex gap-3 xl:w-1/4 w-full ">
         <Input
           className="bg-[#f8fafe] p-7 rounded-3xl grow border-none "
           placeholder={`Məsələn: 0557654321`}
