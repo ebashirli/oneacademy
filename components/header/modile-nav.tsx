@@ -2,8 +2,6 @@
 import ContactUs from "@/components/header/contact-us";
 import Logo from "@/components/logo";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { links } from "@/lib/constants";
-import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { CiMenuFries } from "react-icons/ci";
 import Socials from "../socials";
@@ -21,7 +19,7 @@ export default function MobileNav() {
         <ContactUs />
         <Socials />
         <nav className="flex flex-col justify-center items-center gap-8">
-          {links.map((link) => (
+          {/* {links.map((link) => (
             <Link
               href={`#${link.path}`}
               key={link.name.en}
@@ -31,7 +29,7 @@ export default function MobileNav() {
             >
               {link.name.az}
             </Link>
-          ))}
+          ))} */}
         </nav>
       </SheetContent>
     </Sheet>
