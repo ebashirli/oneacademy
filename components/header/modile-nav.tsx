@@ -2,12 +2,11 @@
 import ContactUs from "@/components/header/contact-us";
 import Logo from "@/components/logo";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { usePathname } from "next/navigation";
 import { CiMenuFries } from "react-icons/ci";
 import Socials from "../socials";
 
 export default function MobileNav() {
-  const pathname = usePathname();
+  // const pathname = usePathname();
 
   return (
     <Sheet>
