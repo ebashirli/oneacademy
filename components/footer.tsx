@@ -3,11 +3,11 @@ import Link from "next/link";
 import { RiMapPin2Fill, RiPhoneFill } from "react-icons/ri";
 import Socials from "./socials";
 
-const footerLinks = [
-  { title: "Mərkəzimiz", links: ["Kariyera", "Müəllimlər", "Dəstək", "Əlaqə"] },
-  { title: "Məhsullarımız", links: ["Kurslar", "Qiymətlər", "Bloqlar"] },
-  { title: "Sənədlər", links: ["Qayda və Şərtlər", "Məxfilik siyasəti"] },
-];
+// const footerLinks = [
+//   { title: "Mərkəzimiz", links: ["Kariyera", "Müəllimlər", "Dəstək", "Əlaqə"] },
+//   { title: "Məhsullarımız", links: ["Kurslar", "Qiymətlər", "Bloqlar"] },
+//   { title: "Sənədlər", links: ["Qayda və Şərtlər", "Məxfilik siyasəti"] },
+// ];
 
 const address = `Masallı şəhəri, "Prospekt" Biznes Mərkəzi (2-ci mərtəbə)`;
 
