@@ -20,7 +20,7 @@ export default function Hero() {
               Təcrübəli müəllimlərlə, müasir şəraitdə öyrənməyə elə indi başlaya
               bilərsən
             </p>
-            <Link href="/api/social/whatsapp" target="_blank">
+            <Link href="/api/socials/whatsapp" target="_blank">
               <Button className="bg-primary-200 text-white px-8 py-6 rounded-full mt-8">
                 Sınaq dərsinə qoşul
               </Button>
