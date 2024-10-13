@@ -1,13 +1,10 @@
 "use client";
-import { links } from "@/lib/constants";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
 
 export default function Nav() {
-  const pathname = usePathname();
+  // const pathname = usePathname();
   return (
     <nav className="flex gap-6 z-10">
-      {links.map((link) => (
+      {/* {links.map((link) => (
         <Link
           href={`#${link.path}`}
           key={link.name.en}
@@ -15,7 +12,7 @@ export default function Nav() {
         >
           {link.name.az}
         </Link>
-      ))}
+      ))} */}
     </nav>
   );
 }
