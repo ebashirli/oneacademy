@@ -9,7 +9,7 @@ export default function Cto() {
           Ödənişsiz sınaq dərsinə bu gün qoşul
         </h2>
         <p className="text-[#b0b0c0] text-lg font-medium leading-[34.20px] p-8">
-          Xarici dillə bağlı arzularınızı mərkəzmizdə reallaşdır
+          Xarici dillə bağlı arzularını mərkəzmizdə reallaşdır
         </p>
       </div>
 

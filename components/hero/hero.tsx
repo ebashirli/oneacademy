@@ -12,7 +12,7 @@ export default function Hero() {
           <HeroImage />
           <div className="p-8 xl:ml-48 text-center xl:text-left ">
             <h2 className="xl:max-w-[580px] text-[42px] xl:text-[56px] font-light leading-[70.56px] ">
-              Xarici dilləri mükəmməl öyrənmək üçün{" "}
+              Dil biliklərinizi inkişaf etdirmək üçün{" "}
               <span className="text-primary-200 font-medium">unikal</span>{" "}
               yanaşma
             </h2>

@@ -4,7 +4,7 @@ const values = [
   {
     icon: "/icons/chat.svg",
     title: "Danışıq klubları",
-    description: `Ödənişsiz "conversation clublar"da danışıq bacarıqlarınızı inkişaf etdirərkən həm də vaxtınızı daha əyləncəli və səmərəli keçirəcəksiniz`,
+    description: `Ödənişsiz "conversation club"larda danışıq bacarıqlarınızı inkişaf etdirərkən həm də vaxtınızı daha əyləncəli və səmərəli keçirəcəksiniz`,
   },
   {
     icon: "/icons/send.svg",
@@ -14,9 +14,9 @@ const values = [
   },
   {
     icon: "/icons/paper.svg",
-    title: "Progress analysis",
+    title: "İnkişafın izlənilməsi",
     description:
-      "The CEF of Reference has been used at our school. It allows to control our students’ success in studying.",
+      "Mütəmadı keçirilən sınaq imatahanları və başqa yoxlama üsulları ilə şagirdlərin inkişafları izlənilir və valideynlər bu barədə məlumatlandırılırlar..",
   },
 ];
 
