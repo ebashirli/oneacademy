@@ -37,7 +37,7 @@ export default function Footer() {
           </Link>
         </div>
 
-        {footerLinks.map(({ title, links }, index) => (
+        {/* {footerLinks.map(({ title, links }, index) => (
           <div key={index}>
             <h6 className="font-bold">{title}</h6>
             <ul>
@@ -48,7 +48,7 @@ export default function Footer() {
               ))}
             </ul>
           </div>
-        ))}
+        ))} */}
 
         <div className="h-4">
           <Socials />
