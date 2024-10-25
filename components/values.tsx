@@ -10,13 +10,13 @@ const values = [
     icon: "/icons/send.svg",
     title: "Peşəkar heyət",
     description:
-      "Müəllimlərimiz ali tehsilli, təcrübəli ve yeniliklərəe uyğunlaşan gənc kadrlardan ibarətdir.",
+      "Müəllimlərimiz ali təhsilli, təcrübəli ve yeniliklərə uyğunlaşan gənc kadrlardan ibarətdir.",
   },
   {
     icon: "/icons/paper.svg",
     title: "İnkişafın izlənilməsi",
     description:
-      "Mütəmadı keçirilən sınaq imatahanları və başqa yoxlama üsulları ilə şagirdlərin inkişafları izlənilir və valideynlər bu barədə məlumatlandırılırlar..",
+      "Mütəmadi keçirilən sınaq imatahanları və başqa yoxlama üsulları ilə şagirdlərin inkişafları izlənilir və valideynlər bu barədə məlumatlandırılırlar.",
   },
 ];
 
