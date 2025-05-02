@@ -1,3 +1,4 @@
+import { sendEmail } from "@/lib/email";
 import { NextRequest, NextResponse } from "next/server";
 
 const socials: { [key: string]: string } = {
@@ -20,7 +21,11 @@ type Params = {
 export async function GET(request: NextRequest, { params }: Params) {
   const { social } = params;
   const { searchParams } = new URL(request.url);
-  console.log({ searchParams })
+
+  const qr = searchParams.get("qr");
+
+  if (qr) await sendEmail(qr);
+
   if (socials[social]) {
     return NextResponse.redirect(socials[social]);
   } else {
