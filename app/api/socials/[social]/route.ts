@@ -19,6 +19,8 @@ type Params = {
 
 export async function GET(request: NextRequest, { params }: Params) {
   const { social } = params;
+  const { searchParams } = new URL(request.url);
+  console.log({ searchParams })
   if (socials[social]) {
     return NextResponse.redirect(socials[social]);
   } else {

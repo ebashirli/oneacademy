@@ -9,7 +9,7 @@ import Socials from "./socials";
 //   { title: "Sənədlər", links: ["Qayda və Şərtlər", "Məxfilik siyasəti"] },
 // ];
 
-const address = `Masallı şəhəri, "Prospekt" Biznes Mərkəzi (2-ci mərtəbə)`;
+const address = `Masallı şəhəri, "Prospekt" Biznes Mərkəzi (4-cü mərtəbə)`;
 
 export default function Footer() {
   return (
