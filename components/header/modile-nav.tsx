@@ -4,7 +4,7 @@ import Logo from "@/components/logo";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { CiMenuFries } from "react-icons/ci";
 import Socials from "../socials";
-import LoginButton from "./login-button";
+// import LoginButton from "./login-button";
 
 export default function MobileNav() {
   // const pathname = usePathname();
@@ -18,7 +18,7 @@ export default function MobileNav() {
         <Logo />
         <ContactUs />
         <Socials />
-        <LoginButton />
+        {/* <LoginButton /> */}
 
         <nav className="flex flex-col justify-center items-center gap-8">
           {/* {links.map((link) => (
