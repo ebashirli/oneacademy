@@ -15,7 +15,7 @@ export default function Header() {
             <Nav />
             <ContactUs />
             <Socials />
-            <div className="h-10 border  border-primary-200"></div>
+            {/* <div className="h-10 border  border-primary-200"></div> */}
             {/* <LoginButton /> */}
           </div>
           <div className="xl:hidden">
