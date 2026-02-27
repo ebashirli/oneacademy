@@ -3,7 +3,7 @@ import MobileNav from "@/components/header/modile-nav";
 import Nav from "@/components/header/nav";
 import Logo from "@/components/logo";
 import Socials from "@/components/socials";
-import LoginButton from "./login-button";
+// import LoginButton from "./login-button";
 
 export default function Header() {
   return (
@@ -16,7 +16,7 @@ export default function Header() {
             <ContactUs />
             <Socials />
             <div className="h-10 border  border-primary-200"></div>
-            <LoginButton />
+            {/* <LoginButton /> */}
           </div>
           <div className="xl:hidden">
             <MobileNav />
