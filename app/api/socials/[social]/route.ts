@@ -3,7 +3,7 @@ import { NextRequest, NextResponse } from "next/server";
 
 const socials: { [key: string]: string } = {
   facebook: "https://www.facebook.com/oneacademies",
-  instagram: "https://www.instagram.com/oneacademy_masalli",
+  instagram: "https://www.instagram.com/one.academy.masalli",
   tiktok: "https://www.tiktok.com/@oneacademy_masalli",
   youtube: "https://www.youtube.com/@oneacademy_az",
   whatsapp: `https://wa.me/994513886411?text=Salam,%20sınaq%20dərsinizə%20qoşulmaq%20istəyirəm%20.%20`,
